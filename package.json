@@ -1,0 +1,20 @@
+{
+  "name": "koa-boilerplate",
+  "version": "0.0.1",
+  "description": "A Koa.js Application Boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yudppp",
+  "license": "MIT",
+  "dependencies": {
+    "ect": "^0.5.9",
+    "koa": "^0.17.0",
+    "koa-common": "^1.2.0",
+    "koa-router": "^3.8.0"
+  },
+  "devDependencies": {
+    "6to5": "^3.5.3"
+  }
+}

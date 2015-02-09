@@ -1,0 +1,17 @@
+{
+  "name": "koa-boilerplate",
+  "version": "0.0.1",
+  "description": "A Koa.js Application Boilerplate.",
+  "authors": [
+    "yudppp"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
