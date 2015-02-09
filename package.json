@@ -2,19 +2,30 @@
   "name": "koa-boilerplate",
   "version": "0.0.1",
   "description": "A Koa.js Application Boilerplate.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node --harmony app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yudppp",
   "license": "MIT",
   "dependencies": {
+    "config": "^1.10.0",
     "ect": "^0.5.9",
     "koa": "^0.17.0",
-    "koa-common": "^1.2.0",
-    "koa-router": "^3.8.0"
+    "koa-bodyparser": "^1.3.1",
+    "koa-favicon": "^1.2.0",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.2.2",
+    "koa-qs": "^1.0.1",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^3.8.0",
+    "koa-session": "^3.1.0",
+    "qs": "^2.3.3"
   },
   "devDependencies": {
-    "6to5": "^3.5.3"
+    "6to5": "^3.5.3",
+    "gulp": "^3.8.10",
+    "koa-static": "^1.4.9"
   }
 }
